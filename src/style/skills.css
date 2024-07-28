@@ -1,0 +1,182 @@
+/* Base styles */
+.skills__container {
+    grid-template-columns: repeat(2, 350px);
+    column-gap: 3rem;
+    justify-content: center;
+}
+
+.skills__content {
+    background-color: #B1EBC2;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem 4rem;
+    border-radius: 1.25rem;
+}
+
+.skills__title {
+    /* font-size: larger; */
+    /* font-weight: bold; */
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ski {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.skills__box {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 2.5rem;
+}
+
+.skills__group {
+    display: grid;
+    align-items: flex-start;
+    row-gap: 1rem;
+}
+
+.skills__data {
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.skills .bx-badge-check {
+    font-size: 1rem;
+    color: black;
+}
+
+.skills__name {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.section__title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-left: 10px;
+}
+
+.section__subtitle {
+    font-size: 1.5rem;
+    margin-left: 100px;
+}
+
+#skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Tablet styles */
+@media (max-width: 768px) {
+    .skills__container {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .skills__content {
+        padding: 2rem;
+    }
+
+    .skills__title {
+        font-size: 1.7rem;
+    }
+
+    .ski {
+        font-size: 1.8em;
+    }
+
+    .skills__box {
+        flex-direction: column;
+        row-gap: 1.5rem;
+    }
+
+    .skills__name {
+        font-size: 1.25rem;
+    }
+
+    .section__title {
+        font-size: 1.75rem;
+    }
+
+    .section__subtitle {
+        font-size: 1.25rem;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 576px) {
+    .skills__container {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .skills__content {
+        padding: 1.5rem;
+    }
+
+    .skills__title {
+        font-size: 1.25rem;
+    }
+
+    .skills__box {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    .skills__name {
+        font-size: 1rem;
+    }
+
+    .section__title {
+        font-size: 1.5rem;
+    }
+
+    .section__subtitle {
+        font-size: 1rem;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+    .skills__container {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+    }
+
+    .skills__content {
+        padding: 2rem 3rem;
+    }
+
+    .skills__title {
+        font-size: 2rem;
+    }
+
+    .skills__box {
+        column-gap: 2rem;
+    }
+
+    .skills__name {
+        font-size: 1.5rem;
+    }
+
+    .section__title {
+        font-size: 2.5rem;
+    }
+
+    .section__subtitle {
+        font-size: 2rem;
+        margin-left: 0;
+    }
+}

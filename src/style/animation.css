@@ -1,0 +1,132 @@
+.spline {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.ani {
+    position: absolute;
+    margin-top: -30rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    max-width: 80%;
+    padding: 20px;
+}
+
+.btncon {
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-weight: 500;
+    font-family: cursive;
+    padding: 0.2em 0.5em;
+}
+
+.ani h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+
+.ani i {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1024px) {
+    .ani {
+        font-size: 0.8em;
+        margin-top: -14rem;
+    }
+
+    .ani h1 {
+        font-size: 3em;
+        width: 800px;
+        margin-left: -10px;
+        font-weight: 900;
+    }
+
+    .ani i {
+        font-size: 2em;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 820px) {
+    .ani {
+        font-size: 0.8em;
+        margin-top: -14rem;
+    }
+
+    .ani h1 {
+        font-size: 3em;
+        width: 800px;
+        margin-left: -90px;
+        font-weight: 900;
+    }
+
+    .ani i {
+        font-size: 2em;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .ani {
+        font-size: 2.5em;
+        margin-top: -28rem;
+    }
+
+    .btncon {
+        font-size: 0.6em;
+        padding: 0.2em 1.1em;
+    }
+
+    .ani h1 {
+        font-size: 1em;
+        width: 600px;
+        margin-top: 30rem;
+        margin-left: -10px;
+        font-weight: 900;
+    }
+
+    .ani i {
+        font-size: 0.7em;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .ani {
+        margin-top: -25rem;
+        font-size: 2em;
+        /* width: 100px; */
+    }
+
+    .ani h1 {
+        font-size: 0.7em;
+        margin-top: 40rem;
+        margin-left: -40px;
+        margin-bottom: -10px;
+        width: 340px;
+        font-weight: 900;
+    }
+
+    .ani i {
+        /* margin-top: -10px; */
+        font-size: 0.4em;
+        font-weight: 600;
+    }
+
+    .btncon {
+        margin-top: 0;
+        font-size: 0.4em;
+        padding: 0.3em 0.9em;
+    }
+
+}
