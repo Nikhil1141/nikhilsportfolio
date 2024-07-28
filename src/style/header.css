@@ -4,11 +4,11 @@
     text-transform: uppercase;
     background-color: #B1EBC2;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* position: sticky; */
 }
 
 .nav-link {
-    font-weight: 400;
+    /* margin-top: 10px; */
+    font-weight: 600;
 }
 
 .active {
@@ -17,4 +17,15 @@
 
 .nav-item {
     color: black;
+}
+
+.btn {
+    border: 1px solid black;
+    margin-top: -10px;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #B1EBC2;
+    transition: 0.3s ease-in-out;
 }

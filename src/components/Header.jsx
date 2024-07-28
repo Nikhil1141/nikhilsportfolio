@@ -27,6 +27,9 @@ const Header = () => {
                             <li className="nav-item">
                                 <a href='#contact' className="nav-link">Let's Connect</a>
                             </li>
+                            <li className="nav-item">
+                                <a href='https://drive.google.com/file/d/1t9wPxtmvFq2H69yRvA87s7D3TI9MB6mK/view?usp=sharing' className="nav-link" id='btn'><button className='btn'>Resume</button></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
